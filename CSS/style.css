@@ -1,0 +1,152 @@
+/* Main css reset rules ==================================================== */
+
+:root {
+    --color-hex-background: #FFF6ED;
+    --color-hex-text: #000000;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container-site {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    min-width: 1326px;
+    padding: 0 57px 0 57px;
+}
+
+/* Header ==================================================== */
+
+.header {
+    background-color: var(--color-hex-background);
+}
+
+.header__title {
+    padding-top: 60px;
+
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Main ==================================================== */
+
+.main {
+    margin-bottom: 23px;
+    padding-top: 40px;
+    background-color: var(--color-hex-background);
+}
+
+.main__principles {
+    margin: 0;
+    padding: 0 0 42px;
+    gap: 100px;
+}
+
+.main__principe {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.main__svg {
+    margin-bottom: 21px;
+}
+
+.main__title {
+    margin-bottom: 6px;
+
+    color: var(--color-hex-text);
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main__color {
+    color: #FF7A00;
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main__text {
+    color: var(--color-hex-text);
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Footer ==================================================== */
+
+.footer {
+    margin-bottom: 20px;
+    gap: 71px
+}
+
+.footer__header {
+    max-width: 592px;
+    margin-bottom: 9px;
+    padding-top: 36px;
+
+    color: var(--color-hex-text);
+    font-family: "Open Sans", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__text {
+    max-width: 592px;
+
+    color: var(--color-hex-text);
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}

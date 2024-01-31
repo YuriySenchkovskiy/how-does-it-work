@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <title>Как это работает?</title>
+</head>
+<body>
+
+    <div class="container-site">
+
+        <header class="header container">
+            <h1 class="header__title">
+                Как это работает?
+            </h1>
+        </header>
+
+        <main class="main container">
+            <ul class="main__principles flex">
+                <li class="main__principe flex">
+                    <svg class="main__svg" width="375" height="288">
+                        <use href="./sprite.svg#coffee"></use>
+                    </svg>
+                    <h2 class="main__title">
+                        Утренний <span class="main__color">кофе</span>
+                    </h2>
+                    <p class="main__text">
+                        Кофеин воздействует на центральную нервную систему как природный “будильник”.
+                        Поэтому мы быстрее просыпаемся.
+                    </p>
+                </li>
+                <li class="main__principe flex">
+                    <svg class="main__svg" width="375" height="288">
+                        <use href="./sprite.svg#meditation"></use>
+                    </svg>
+                    <h2 class="main__title">
+                        Час <span class="main__color">медитации</span>
+                    </h2>
+                    <p class="main__text">
+                        После практик оба полушария мозга начинают работать сбалансированно — это привносит
+                        порядок в вашу жизнь.
+                    </p>
+                </li>
+                <li class="main__principe flex">
+                    <svg class="main__svg" width="375" height="288">
+                        <use href="./sprite.svg#sprinting"></use>
+                    </svg>
+                    <h2 class="main__title">
+                        Вперёд к <span class="main__color">свершениям!</span>
+                    </h2>
+                    <p class="main__text">
+                        Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя
+                        останавливаться.
+                    </p>
+                </li>
+            </ul>
+        </main>
+
+        <footer class="footer flex container">
+            <div>
+                <h2 class="footer__header">
+                    Интеграция со сторонними сервисами
+                </h2>
+                <p class="footer__text">
+                    Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего
+                    рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.
+                </p>
+            </div>
+            <div class="footer__social">
+                <svg width="662" height="275">
+                    <use href="./sprite.svg#ellipse"></use>
+
+                    <use href="./sprite.svg#facebook" x="112" y="69"></use>
+                    <use href="./sprite.svg#trello" x="272" y="69"></use>
+                    <use href="./sprite.svg#worklio" x="432" y="69"></use>
+                    <use href="./sprite.svg#dropbox" x="592" y="69"></use>
+
+                    <use href="./sprite.svg#google" x="182" y="169"></use>
+                    <use href="./sprite.svg#trello-plain" x="342" y="169"></use>
+                    <use href="./sprite.svg#slack" x="502" y="169"></use>
+                </svg>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
