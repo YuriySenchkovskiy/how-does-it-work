@@ -123,12 +123,12 @@ button {
 /* Footer ==================================================== */
 
 .footer {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     gap: 71px
 }
 
 .footer__header {
-    max-width: 592px;
+    min-width: 592px;
     margin-bottom: 9px;
     padding-top: 36px;
 
@@ -141,7 +141,7 @@ button {
 }
 
 .footer__text {
-    max-width: 592px;
+    min-width: 592px;
 
     color: var(--color-hex-text);
     font-family: "Open Sans", serif;
@@ -149,4 +149,26 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+}
+
+.footer__social {
+    min-height: 275px;
+    background: url("../img/footer.png") no-repeat left center;
+}
+
+.footer__social1,
+.footer__social2 {
+    margin: 0;
+    padding: 0;
+    gap: 90px;
+}
+
+.footer__social1 {
+    margin-bottom: 25px;
+    padding-top: 70px;
+    padding-left: 112px;
+}
+
+.footer__social2 {
+    padding-left: 182px;
 }
